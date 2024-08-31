@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>To Do List</title>
+        <meta charset="utf-8"/>
+        <meta name = "viewport" content="width = device-width, initial-scale = 1.0"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <div class="everything">
+                <section class="top"></section>
+                    <p class="heading">notNotion</p>
+                    <p class="subheading">Manage And Search Your Pending Tasks in Clicks!</p>
+                </section>
+    
+                <section class="task-manager">
+                    <div class="search-box">
+                        <form class="search">
+                            <input type="text" name="task" class="searchbar" placeholder="search task" autocomplete>
+                            <i class="bi bi-x-circle reset"></i>
+                        </form>
+                    </div>
+                        
+                    <div class="task-box">
+                            <ul class="tasks">
+                                <li class="list-item">
+                                    <span>Learn JS</span>
+                                    <i class="bi bi-trash-fill delete"></i>
+                                </li>
+                                <li class="list-item">
+                                    <span>Editing</span>
+                                    <i class="bi bi-trash-fill delete"></i>
+                                </li>
+                                <li class="list-item">
+                                    <span>Video recording</span>
+                                    <i class="bi bi-trash-fill delete"></i>
+                                </li>
+                            </ul>
+                        <div class="add-task">
+                            <form class="add"> 
+                                <input type="text" name="task" id="addTask" placeholder="add task" autocomplete="off">
+                                <input type="submit" id="addButton" value="Add">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="message-box">
+                        <span class="task-message">You have 3 pending tasks</span>
+                        <button class="clear">Clear All</button>
+                    </div>
+    
+                </section>
+            </div>
+            
+
+
+        </main>
+    <script src="./script.js"></script>
+    </body>
+</html>
+      
